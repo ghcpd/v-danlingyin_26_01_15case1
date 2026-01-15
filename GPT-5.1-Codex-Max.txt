@@ -1,0 +1,98 @@
+GPT-5.1-Codex-Max  ：：
+User: prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a simple product listing web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- Creating a complete app from scratch
+- Data modeling
+- Component composition
+- TypeScript correctness
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: Optional (single page acceptable)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Fully read input_ui_spec.txt
+- Do not assume extra features
+2. Project Setup
+Generate:
+- package.json
+- tsconfig.json (strict)
+- vite.config.ts
+- index.html
+3. Features
+- Display product list from mock data
+- Each product shows:
+
+- name
+- price
+- category
+- Filter products by category
+- No backend, no persistence
+4. Code Quality
+- Strong typing for product data
+- No any
+- Clear component boundaries
+5. Generate README.md
+Include:
+- App description
+- How to run
+- Feature list
+
+GitHub Copilot: Optimizing tool selection...
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/tailwind.config.cjs)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/postcss.config.cjs)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/types.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/data/products.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/components/ProductCard.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/components/CategoryFilter.tsx)
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/GPT-5.1-Codex-Max/README.md)
+
+- Built a strict React 18 + TypeScript + Vite app with Tailwind styling: product grid plus category filter, no extra features beyond the spec.
+- Strong typing via types.ts; mock data in products.ts drives the UI.
+- UI composition: layout and filtering in App.tsx; filter buttons in CategoryFilter.tsx; cards in ProductCard.tsx; entry in main.tsx with Tailwind setup (index.css).
+- Tooling/config: Vite + pnpm scripts in package.json; strict TS config in tsconfig.json; Tailwind/PostCSS in tailwind.config.cjs and postcss.config.cjs; base HTML in index.html; usage guide in README.md.
+
+Next steps:
+- `pnpm install`
+- `pnpm dev` (open the shown URL, default http://localhost:5173)
+- Optional: `pnpm build` then `pnpm preview` to verify the production build.
+
+Made changes.
