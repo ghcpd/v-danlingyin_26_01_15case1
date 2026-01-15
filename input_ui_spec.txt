@@ -1,0 +1,15 @@
+App Name: Simple Product Listing
+
+Products:
+- id (number)
+- name (string)
+- price (number)
+- category (string)
+
+Features:
+- Display all products
+- Filter products by category
+
+UI:
+- Grid or list layout
+- Simple filter buttons
