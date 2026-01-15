@@ -1,0 +1,45 @@
+prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a simple product listing web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- Creating a complete app from scratch
+- Data modeling
+- Component composition
+- TypeScript correctness
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: Optional (single page acceptable)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Fully read input_ui_spec.txt
+- Do not assume extra features
+2. Project Setup
+Generate:
+- package.json
+- tsconfig.json (strict)
+- vite.config.ts
+- index.html
+3. Features
+- Display product list from mock data
+- Each product shows:
+
+- name
+- price
+- category
+- Filter products by category
+- No backend, no persistence
+4. Code Quality
+- Strong typing for product data
+- No any
+- Clear component boundaries
+5. Generate README.md
+Include:
+- App description
+- How to run
+- Feature list

@@ -1,0 +1,100 @@
+Claude-Opus-4.5  ：：
+User: prompt
+You are a senior front-end developer specializing in React and TypeScript.
+Your task is to build a simple product listing web app from scratch,
+based strictly on the specification provided in input_ui_spec.txt.
+This UI Case focuses on:
+- Creating a complete app from scratch
+- Data modeling
+- Component composition
+- TypeScript correctness
+--------------------------------------------------------------------------------
+Technical Requirements
+- Framework: React 18 + TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Package Manager: pnpm
+- Routing: Optional (single page acceptable)
+--------------------------------------------------------------------------------
+Your Responsibilities
+1. Read Specification
+- Fully read input_ui_spec.txt
+- Do not assume extra features
+2. Project Setup
+Generate:
+- package.json
+- tsconfig.json (strict)
+- vite.config.ts
+- index.html
+3. Features
+- Display product list from mock data
+- Each product shows:
+
+- name
+- price
+- category
+- Filter products by category
+- No backend, no persistence
+4. Code Quality
+- Strong typing for product data
+- No any
+- Clear component boundaries
+5. Generate README.md
+Include:
+- App description
+- How to run
+- Feature list
+
+GitHub Copilot: I'll build the complete product listing web app based on the specification. Let me create all the necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/postcss.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/tailwind.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/types/product.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/data/products.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/components/ProductCard.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/components/CategoryFilter.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/components/ProductList.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/src/vite-env.d.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.15/case1/Claude-Opus-4.5/product-listing/README.md)
+
+I've created the complete Simple Product Listing application. Let me install the dependencies and start the dev server: 
+
+Ran terminal command: cd "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.15\case1\Claude-Opus-4.5\product-listing" ; pnpm install
+
+Dependencies installed. Let me start the development server: 
+
+Ran terminal command: pnpm dev
+
+Let me navigate to the correct directory and run the server: 
+
+Ran terminal command: Set-Location "c:\Users\v-danlingyin\Documents\microsoft_projects_files\bugBash\26.1\1.15\case1\Claude-Opus-4.5\product-listing"; pnpm dev
+
+The app is running. Let me open it in the browser: 
+
+Opened Simple Browser at http://localhost:5175
+
+Made changes.
